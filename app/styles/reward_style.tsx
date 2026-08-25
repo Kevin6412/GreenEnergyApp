@@ -1,0 +1,156 @@
+
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  backgroundImage: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 40,
+  },
+  headerSection: {
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  greenScoreText: {
+    fontFamily: 'PressStart2P',
+    color: 'white',
+    fontSize: 8,
+    textAlign: 'center',
+    marginBottom: 10,
+    textShadowColor: '#000',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 1,
+  },
+  rewardsHeader: {
+    fontFamily: 'PressStart2P',
+    fontSize: 16,
+    color: '#FF69B4',
+    textShadowColor: '#800080',
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 1,
+  },
+  scrollContainer: {
+    backgroundColor: 'rgba(180, 220, 255, 0.8)',
+    borderRadius: 16,
+    width: '90%',
+    maxHeight: '65%',
+    marginVertical: 20,
+  },
+  scrollContent: {
+    alignItems: 'center',
+    paddingVertical: 16,
+  },
+  emptyState: {
+    padding: 20,
+    alignItems: 'center',
+  },
+  emptyStateText: {
+    fontFamily: 'PressStart2P',
+    fontSize: 10,
+    color: '#666',
+  },
+  rewardCard: {
+    backgroundColor: 'white',
+    borderRadius: 12,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    marginVertical: 6,
+    width: '90%',
+    borderColor: '#ff66cc',
+    borderWidth: 2,
+    shadowColor: '#cc33ff',
+    shadowOpacity: 0.8,
+    shadowOffset: { width: 2, height: 3 },
+    shadowRadius: 4,
+    elevation: 4,
+  },
+  rewardInfo: {
+    flex: 1,
+    marginRight: 10,
+  },
+  rewardName: {
+    fontFamily: 'PressStart2P',
+    fontSize: 8,
+    color: '#1A0033',
+    marginBottom: 4,
+  },
+  pointsRequired: {
+    fontFamily: 'PressStart2P',
+    fontSize: 6,
+    color: '#666',
+  },
+  redeemContainer: {
+    alignItems: 'center',
+  },
+  redeemGradient: {
+    borderRadius: 4,
+    padding: 2,
+  },
+  redeemButton: {
+    backgroundColor: '#ffcc66',
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 4,
+    minWidth: 80,
+  },
+  redeemButtonText: {
+    fontFamily: 'PressStart2P',
+    fontSize: 6,
+    color: '#3B0A00',
+    textAlign: 'center',
+  },
+  pointsWarning: {
+    fontFamily: 'PressStart2P',
+    fontSize: 5,
+    color: '#ff3333',
+    marginTop: 4,
+    textAlign: 'center',
+  },
+  redeemedButton: {
+    backgroundColor: '#4CAF50',
+    borderWidth: 2,
+    borderColor: '#2E7D32',
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 4,
+    minWidth: 80,
+  },
+  redeemedButtonText: {
+    fontFamily: 'PressStart2P',
+    fontSize: 6,
+    color: 'white',
+    textAlign: 'center',
+  },
+  footerSection: {
+    marginBottom: 20,
+  },
+  backGradient: {
+    borderRadius: 6,
+    padding: 2,
+    shadowColor: '#cc33ff',
+    shadowOpacity: 1,
+    shadowRadius: 8,
+    shadowOffset: { width: 3, height: 3 },
+    elevation: 6,
+  },
+  backButton: {
+    backgroundColor: '#FFA726',
+    borderRadius: 6,
+    paddingVertical: 10,
+    paddingHorizontal: 30,
+  },
+  backButtonText: {
+    fontFamily: 'PressStart2P',
+    fontSize: 8,
+    color: '#3B0A00',
+    textAlign: 'center',
+  },
+});
+
+export { styles };
